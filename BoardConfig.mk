@@ -97,7 +97,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # TWRP Configs
-RECOVERY_VARIANT := twrp
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
 RECOVERY_SDCARD_ON_DATA := true
@@ -116,3 +115,52 @@ TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_SUPERSU := true
 TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
+
+#SHRP_Variables
+BUILD_SHRP_REC := true
+SHRP_PATH := device/samsung/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := TenSeventy7
+SHRP_DEVICE_CODE := a50dd
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 0
+SHRP_REC := /dev/block/platform/13520000.ufs/by-name/recovery
+SHRP_REC_TYPE := SAR
+SHRP_DEVICE_TYPE := A_Only
+SHRP_EXPRESS := true
+SHRP_OFFICIAL := false
+SHRP_DARK:= true
+SHRP_ALT_REBOOT := true
+SHRP_NOTCH := true
+SHRP_STATUSBAR_RIGHT_PADDING := 48
+SHRP_STATUSBAR_LEFT_PADDING := 48
+
+# SHRP addons
+SHRP_EXTERNAL_ADDON_PATH := $(DEVICE_PATH)/addons/
+SHRP_SKIP_DEFAULT_ADDON_1 := true
+SHRP_SKIP_DEFAULT_ADDON_2 := true
+SHRP_SKIP_DEFAULT_ADDON_3 := true
+SHRP_SKIP_DEFAULT_ADDON_4 := true
+
+SHRP_EXTERNAL_ADDON_1_NAME := "Pass/PIN Reset"
+SHRP_EXTERNAL_ADDON_1_INFO := "Fix PIN problem when flashing kernels with differing security patch levels."
+SHRP_EXTERNAL_ADDON_1_FILENAME := "PassReset.zip"
+SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Fix PIN Problem"
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Successfuly fixed"
+INC_IN_REC_ADDON_1 := true
+
+SHRP_EXTERNAL_ADDON_2_NAME := "Disable Samsung Services"
+SHRP_EXTERNAL_ADDON_2_INFO := "Disable Samsung security services, like Knox."
+SHRP_EXTERNAL_ADDON_2_FILENAME := "multidisabler_samsung.zip"
+SHRP_EXTERNAL_ADDON_2_BTN_TEXT := "Patch Services"
+SHRP_EXTERNAL_ADDON_2_SUCCESSFUL_TEXT := "Successfuly patched"
+INC_IN_REC_ADDON_2 := true
+
+SHRP_EXTERNAL_ADDON_3_NAME := "Remove Warning on Splash Screen"
+SHRP_EXTERNAL_ADDON_3_INFO := "Removes the bootloader unlock warning on splash."
+SHRP_EXTERNAL_ADDON_3_FILENAME := "RemoveSplashWarning.zip"
+SHRP_EXTERNAL_ADDON_3_BTN_TEXT := "Remove Splash Screen Warning"
+SHRP_EXTERNAL_ADDON_3_SUCCESSFUL_TEXT := "Successfuly removed"
+INC_IN_REC_ADDON_3 := true
