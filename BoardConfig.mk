@@ -127,6 +127,7 @@ SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
 SHRP_FLASH := 0
 SHRP_REC := /dev/block/platform/13520000.ufs/by-name/recovery
+SHRP_NO_SAR_AUTOMOUNT := true
 SHRP_REC_TYPE := SAR
 SHRP_DEVICE_TYPE := A_Only
 SHRP_EXPRESS := true
