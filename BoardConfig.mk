@@ -149,18 +149,18 @@ SHRP_EXTERNAL_ADDON_1_INFO := "Fix PIN problem when flashing kernels with differ
 SHRP_EXTERNAL_ADDON_1_FILENAME := "PassReset.zip"
 SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Fix PIN Problem"
 SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Successfuly fixed"
-INC_IN_REC_ADDON_1 := true
+SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
 
 SHRP_EXTERNAL_ADDON_2_NAME := "Disable Samsung Services"
-SHRP_EXTERNAL_ADDON_2_INFO := "Disable Samsung security services, like Knox."
+SHRP_EXTERNAL_ADDON_2_INFO := "Disable Samsung security services like Knox."
 SHRP_EXTERNAL_ADDON_2_FILENAME := "multidisabler_samsung.zip"
 SHRP_EXTERNAL_ADDON_2_BTN_TEXT := "Patch Services"
 SHRP_EXTERNAL_ADDON_2_SUCCESSFUL_TEXT := "Successfuly patched"
-INC_IN_REC_ADDON_2 := true
+SHRP_INC_IN_REC_EXTERNAL_ADDON_2 := true
 
 SHRP_EXTERNAL_ADDON_3_NAME := "Remove Warning on Splash Screen"
 SHRP_EXTERNAL_ADDON_3_INFO := "Removes the bootloader unlock warning on splash."
 SHRP_EXTERNAL_ADDON_3_FILENAME := "RemoveSplashWarning.zip"
 SHRP_EXTERNAL_ADDON_3_BTN_TEXT := "Remove Splash Screen Warning"
 SHRP_EXTERNAL_ADDON_3_SUCCESSFUL_TEXT := "Successfuly removed"
-INC_IN_REC_ADDON_3 := true
+SHRP_INC_IN_REC_EXTERNAL_ADDON_3 := true
