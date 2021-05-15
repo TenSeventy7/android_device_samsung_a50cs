@@ -143,6 +143,7 @@ SHRP_SKIP_DEFAULT_ADDON_1 := true
 SHRP_SKIP_DEFAULT_ADDON_2 := true
 SHRP_SKIP_DEFAULT_ADDON_3 := true
 SHRP_SKIP_DEFAULT_ADDON_4 := true
+SHRP_EXCLUDE_MAGISK_FLASH := true
 
 SHRP_EXTERNAL_ADDON_1_NAME := "Pass/PIN Reset"
 SHRP_EXTERNAL_ADDON_1_INFO := "Fix PIN problem when flashing kernels with differing security patch levels."
