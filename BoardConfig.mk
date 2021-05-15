@@ -161,6 +161,6 @@ SHRP_INC_IN_REC_EXTERNAL_ADDON_2 := true
 SHRP_EXTERNAL_ADDON_3_NAME := "Remove Warning on Splash Screen"
 SHRP_EXTERNAL_ADDON_3_INFO := "Removes the bootloader unlock warning on splash."
 SHRP_EXTERNAL_ADDON_3_FILENAME := "RemoveSplashWarning.zip"
-SHRP_EXTERNAL_ADDON_3_BTN_TEXT := "Remove Splash Screen Warning"
+SHRP_EXTERNAL_ADDON_3_BTN_TEXT := "Remove Warning"
 SHRP_EXTERNAL_ADDON_3_SUCCESSFUL_TEXT := "Successfuly removed"
 SHRP_INC_IN_REC_EXTERNAL_ADDON_3 := true
