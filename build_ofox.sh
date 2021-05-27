@@ -4,7 +4,7 @@
 export ALLOW_MISSING_DEPENDENCIES=true
 export OF_STATUS_INDENT_LEFT="48"
 export OF_STATUS_INDENT_RIGHT="48"
-export TARGET_DEVICE_ALT="a50, a50dd"
+export TARGET_DEVICE_ALT="a50, a50cs"
 export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/platform/13520000.ufs/by-name/recovery"
 export FOX_REPLACE_BUSYBOX_PS="1"
 export FOX_USE_BASH_SHELL="1"
@@ -33,5 +33,5 @@ export LZMA_RAMDISK_TARGETS="recovery"
 
 # Build Time
 source build/envsetup.sh
-lunch omni_a50dd-eng
+lunch omni_a50cs-eng
 mka recoveryimage

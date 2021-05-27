@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a50dd
+DEVICE_PATH := device/samsung/a50cs
 
 # Architecture
 TARGET_ARCH := arm64
@@ -70,7 +70,7 @@ TARGET_BOARD_PLATFORM := exynos5
 TARGET_BOARD_PLATFORM_GPU := mali-g72
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := a50,a50dd
+TARGET_OTA_ASSERT_DEVICE := a50,a50cs
 
 # File systems: File System
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -101,7 +101,7 @@ RECOVERY_VARIANT := twrp
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
 RECOVERY_SDCARD_ON_DATA := true
-TARGET_OTA_ASSERT_DEVICE := a50,a50dd
+TARGET_OTA_ASSERT_DEVICE := a50,a50cs
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 162
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
